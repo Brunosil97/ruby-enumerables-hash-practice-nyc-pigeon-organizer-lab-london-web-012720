@@ -19,5 +19,3 @@ def nyc_pigeon_organizer(data)
   end
   new_hash
 end
-
-pp new_hash 
