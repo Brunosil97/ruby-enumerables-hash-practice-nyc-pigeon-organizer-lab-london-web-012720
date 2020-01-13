@@ -12,7 +12,7 @@ def nyc_pigeon_organizer(data)
           new_hash[name][key] = []
         end
 
-        new_hash[name][key] << new_value.to_s #converting new value into a string and shovelling it into the new hash 
+        new_hash[name][key] << new_value.to_s #converting new value into a string and shovelling it into the new hash which becomes the pigeons name as the key  
 
       end
     end
