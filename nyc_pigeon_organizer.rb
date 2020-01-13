@@ -5,11 +5,11 @@ def nyc_pigeon_organizer(data)
       names.each do |name|
         
         if !new_hash[name]
-          new_hash[name] = {}
+          new_hash[name] = {} #making the pigeons name into the hash 
         end
 
         if !new_hash[name][key]
-          new_hash[name][key] = []
+          new_hash[name][key] = [] 
         end
 
         new_hash[name][key] << new_value.to_s #converting new value into a string and shovelling it into the new hash which becomes the pigeons name as the key  
